@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/03-ui-componentes-estilos',
+  basePath: '/icc-ppw-u2-03-ui-componentes-estilos',
   supportedLocales: {
   "en-US": ""
 },

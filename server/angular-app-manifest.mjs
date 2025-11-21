@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/03-ui-componentes-estilos/',
+  baseHref: 'https://clcmono.github.io/icc-ppw-u2-03-ui-componentes-estilos/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/03-ui-componentes-estilos"
+    "route": "/icc-ppw-u2-03-ui-componentes-estilos"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 4465, hash: '0f7335b32d4ba8321bd038154330e9ecd076f6f7ab9d5f67ecf548ef3a742f20', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1092, hash: 'bd0a7145ac846eb3f5074d2071606f3b2967dec0c3f5de26b70847e137279c55', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 12677, hash: '9f7052239bfa6f6836558f46f2b59007137171392ef727830462cc8248929aa8', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'styles-ZFFAVYGV.css': {size: 10691, hash: 'VoaJeVZ10ZI', text: () => import('./assets-chunks/styles-ZFFAVYGV_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 5882, hash: '4253c1f922260d1e31499aabc8872894d9580c45dea60011eca01a9a6bd19d69', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1128, hash: '0e81e97cce7d48d3dcfba3786cdc97f80f7a9820a1324bc55fab0f0ca6a957f4', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 14168, hash: '7e2fe4eeda4c1dc7a06f8e9f80d1da16ed0a65a7313ac78a9ea1accf8a69f27b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-4DLBUBPL.css': {size: 13660, hash: 'DhoZumkmG4M', text: () => import('./assets-chunks/styles-4DLBUBPL_css.mjs').then(m => m.default)}
   },
 };

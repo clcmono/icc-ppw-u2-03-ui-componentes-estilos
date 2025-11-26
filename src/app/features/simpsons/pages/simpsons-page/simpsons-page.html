@@ -1,6 +1,5 @@
 <section class="p-8">
 
-  <!-- 🟡 RUTA / MIGAS -->
   <app-breadcrumbs
     [items]="[
       { label: 'Inicio', link: '/' },
@@ -15,7 +14,7 @@
 
 
 
-  <!-- 🔵 SPINNER (cuando está cargando) -->
+
   @if (simpsonsResource.isLoading()) {
     <div class="flex justify-center items-center h-64">
       <span class="loading loading-spinner loading-lg"></span>
@@ -23,7 +22,6 @@
   }
 
 
-  <!-- 🟢 TABLA DE PERSONAJES -->
   @if (simpsonsResource.hasValue()) {
     <div class="overflow-x-auto mb-6">
       <table class="table">

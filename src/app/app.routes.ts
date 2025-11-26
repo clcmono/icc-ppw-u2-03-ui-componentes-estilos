@@ -15,8 +15,14 @@ export const routes: Routes = [
   //   path: '',
   //   component: SignalBoxComponent,
   // }
+
   {
-    path: '',
+  path: '',
+  redirectTo: 'inicio',
+  pathMatch: 'full'
+  },
+  {
+    path: 'inicio',
     component:DaisyuiPage,
   },
   {
@@ -28,6 +34,6 @@ export const routes: Routes = [
   loadComponent: () =>
     import('./features/simpsons/pages/simpson-detail-page/simpson-detail-page')
       .then(m => m.SimpsonDetailPage),
-  data: { renderMode: 'client' } 
+  data: { renderMode: 'client' } // 👈 evita el error de prerender
 }
 ];
